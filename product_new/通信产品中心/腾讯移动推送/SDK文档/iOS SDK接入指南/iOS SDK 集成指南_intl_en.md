@@ -164,8 +164,10 @@ During debugging, we recommend that you implement the following two methods in t
 If Xcode console displays a log similar to the one below, the client has properly integrated the SDK.
 
 ```javascript
-[xgpush]Current device token is 623e4a477abce566a74c449ae32c1ca6066fbb243e7417b3fe393811b54792eb
-The server (193.168.115.248) returns correctly, the device token has been successfully registered.
+[xgpush]Current device token is 0f0b22e9068bba7f7b5c8a3a65b87661ba9aa727ec4c15980a7f3dd1eb75713d
+[xgpush]Current XG token is 03d3c52e00574c61ed323a8ddaa5e170c7a5
+The server responds correctly, registering device token successfully
+-[AppDelegate xgPushDidRegisteredDeviceToken:error:], result OK, error (null)
 ```
 
 
